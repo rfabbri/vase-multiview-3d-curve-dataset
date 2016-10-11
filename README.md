@@ -17,7 +17,7 @@ camera parameters.
 ## Files
 
 ```
-images/      the original images from DTU robot dataset for this scene
+images/      the original images for scene 40 from DTU robot feature dataset
 
 cameras/
 
@@ -52,7 +52,7 @@ Further authors include Anil Usumezbas and Benjamin Kimia.
 # Credits
 
 This dataset was built on top of DTU Robot Point Feature dataset,
-[DTU Robot Image Datasets](http://roboimagedata.compute.dtu.dk).
+[DTU Robot Image Datasets](http://roboimagedata.compute.dtu.dk), scene 40.
 Please cite them when citing this dataset.
 
 
