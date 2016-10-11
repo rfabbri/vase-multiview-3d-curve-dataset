@@ -72,7 +72,7 @@ unregistered.
 ### Doing it for a different dataset
 
 You will have to know how to load images and a camera model into blender and create views
-which are regitered to the images.
+which are registered to the images.
 
 Ask [Ric Fabbri](http://rfabbri.github.io) for further details.
 
