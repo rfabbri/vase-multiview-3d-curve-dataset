@@ -17,8 +17,9 @@ camera parameters.
 ## Files
 
 ```
-images/   a subset of the images for scene 40 from DTU robot feature dataset, which are originally
-    3GB in high res. This is what we had selected for the Multiview-3d-Drawing.sf.net system.
+images/   a subset of the images for scene 40 from DTU robot feature dataset,
+    which are originally 3GB in high res. This is what we had selected for the
+    Multiview-3d-Drawing.sf.net system, if you want to compare against it.
 
 cameras/  a subset of the cameras provided by the massive DTU robot feature dataset. These are 
     text files containing 3x4 matrix entries for each image in images/
