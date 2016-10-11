@@ -17,23 +17,23 @@ camera parameters.
 ## Files
 
 ```
+vase-edge-gt3-017.txt.gz   the ground truth 3D scan points at feature edges.
+    obtained by manually deleting homogeneous areas from the full scan.
+    The file contains x y z coordinates for sample points, one point per line,
+    as an nx3 array. Loat into matlab with the load function (uncompress first)
+
+
+pts-40.ply.gz   the original mesh points to be opened in meshlab. Uncompress it
+    first.
+
+3d/vase-edge-gt3-017.blend
+
 images/   a subset of the images for scene 40 from DTU robot feature dataset,
     which are originally 3GB in high res. This is what we had selected for the
     Multiview-3d-Drawing.sf.net system, if you want to compare against it.
 
-cameras/  a subset of the cameras provided by the massive DTU robot feature dataset. These are 
+cameras/  a subset of the cameras provided by the DTU robot feature dataset. These are 
     text files containing 3x4 matrix entries for each image in images/
-
-3d/original   the original mesh files 
-
-3d/registered-editing.blend
-
-3d/full/*.ply
-  
-3d/full/*.txt.bz2
-
-3d/gt-points.txt  x y z coordinates for sample points, one point per line.
-                  lets call this the 'allpts' nx3 array
 ```
 
 ## Images
