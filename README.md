@@ -3,7 +3,7 @@
 This real curve 3D groundtruth is constructed by manually deleting points of a
 dense point cloud obtained from structured lighting. 
 
-Images and explanations of this ground truth are provided in:
+Figures and explanations of this ground truth are provided in:
 http://Multiview-3d-Drawing.sf.net
 
 Using the point cloud alone, the 3D edges are not identifiable with confidence.
@@ -17,11 +17,11 @@ camera parameters.
 ## Files
 
 ```
-images/      the original images for scene 40 from DTU robot feature dataset
+images/   a subset of the images for scene 40 from DTU robot feature dataset, which are originally
+    3GB. This is what we had selected for the Multiview-3d-Drawing.sf.net system.
 
-cameras/
-
-3d/
+cameras/  a subset of the cameras provided by the massive DTU robot feature dataset. These are 
+    text files containing 3x4 matrix entries for each image in images/
 
 3d/original   the original mesh files 
 
@@ -35,6 +35,10 @@ cameras/
                   lets call this the 'allpts' nx3 array
 ```
 
+## Images
+The images are from the DTU Robot Feature Dataset, set 40
+http://roboimagedata.imm.dtu.dk/data/tar600x800/SET037_42.tar.gz
+They are in the folder SET040
 
 ## Generating your own registered images in Blender for image-aligned 3D editing
 
@@ -49,14 +53,14 @@ Dataset produced and tested with Blender 2.76 on Mac OSX and Linux.
 [Ricardo Fabbri](http://rfabbri.github.io) built the dataset.
 Further authors include Anil Usumezbas and Benjamin Kimia.
 
-# Credits
+## Credits
 
 This dataset was built on top of DTU Robot Point Feature dataset,
 [DTU Robot Image Datasets](http://roboimagedata.compute.dtu.dk), scene 40.
 Please cite them when citing this dataset.
 
 
-# Citing the dataset
+## Citing the dataset
 
 Please cite the dataset as
 
@@ -96,5 +100,5 @@ format for your own projects with blender
 * http://blender.stackexchange.com/questions/38009/3x4-camera-matrix-from-blender-camera
 * http://blender.stackexchange.com/questions/40650/blender-camera-from-3x4-matrix
 
-Images and explanations of this ground truth are provided in:
+Figures and explanations of this ground truth are provided in:
 http://Multiview-3d-Drawing.sf.net
