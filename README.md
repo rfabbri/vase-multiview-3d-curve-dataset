@@ -18,7 +18,7 @@ camera parameters.
 
 ```
 images/   a subset of the images for scene 40 from DTU robot feature dataset, which are originally
-    3GB. This is what we had selected for the Multiview-3d-Drawing.sf.net system.
+    3GB in high res. This is what we had selected for the Multiview-3d-Drawing.sf.net system.
 
 cameras/  a subset of the cameras provided by the massive DTU robot feature dataset. These are 
     text files containing 3x4 matrix entries for each image in images/
@@ -36,9 +36,9 @@ cameras/  a subset of the cameras provided by the massive DTU robot feature data
 ```
 
 ## Images
-The images are from the DTU Robot Feature Dataset, set 40
-http://roboimagedata.imm.dtu.dk/data/tar600x800/SET037_42.tar.gz
-They are in the folder SET040
+The images are from the DTU Robot Feature Dataset, set 40, high res version
+http://roboimagedata.imm.dtu.dk/data/tar1200x1600/SET037_42.tar.gz
+They are in the folder SET040.
 
 ## Generating your own registered images in Blender for image-aligned 3D editing
 
