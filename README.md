@@ -8,7 +8,7 @@ http://Multiview-3d-Drawing.sf.net
 
 Using the point cloud alone, the 3D edges are not identifiable with confidence.
 Therefore, we reproject the dense point cloud scan onto reference images during
-editing for disam biguating edges. The unstructured point cloud from structured
+editing for disambiguating edges. The unstructured point cloud from structured
 lighting tends to suffer from oversmoothing, and lacks structure near edges,
 which we recover from the reference images registered using the ground truth
 camera parameters.
@@ -43,7 +43,8 @@ They are in the folder SET040.
 
 ## Generating your own registered images in Blender for image-aligned 3D editing
 
-### How it was done for the present dataset0
+### How it was done for the present dataset
+
 After opening the provided vase-edge-gt3-017.blend, there will be several
 windows. I use these windows on a multi-monitor setup, one per monitor.
 Right-click on a black point cloud to make it yellow (selected). You will see
@@ -91,6 +92,8 @@ Further authors include Anil Usumezbas and Benjamin Kimia.
 This dataset was built on top of DTU Robot Point Feature dataset,
 [DTU Robot Image Datasets](http://roboimagedata.compute.dtu.dk), scene 40.
 Please cite them when citing this dataset.
+
+We also acknowledge FAPERJ/Brazil and NSF support.
 
 
 ## Citing the dataset

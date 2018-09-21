@@ -1,5 +1,5 @@
 CC-BY https://creativecommons.org/licenses/by/2.0/
 
-This dataset was built on top of E-Mirage studios's dataset downloaded from
-https://www.blender.org/download/demo-files, for which the unmodified version
-is distributed under the 3d/original folder.
+The images are from the DTU Robot Feature Dataset, set 40, high res version
+http://roboimagedata.imm.dtu.dk/data/tar1200x1600/SET037_42.tar.gz
+They are in the folder SET040.
