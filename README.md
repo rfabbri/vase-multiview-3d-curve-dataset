@@ -34,7 +34,8 @@ images/   a subset of the images for scene 40 from DTU robot feature dataset,
     Multiview-3d-Drawing.sf.net system, if you want to compare against it.
 
 cameras/  a subset of the cameras provided by the DTU robot feature dataset. These are 
-    text files containing 3x4 matrix entries for each image in images/
+    text files containing 3x4 matrix entries for each image in images/. The
+    separate calibration K and R,T may be optained by decomposing the matrix.
 ```
 ## Images
 The images are from the DTU Robot Feature Dataset, set 40, high res version
