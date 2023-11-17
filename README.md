@@ -20,11 +20,14 @@ camera parameters.
 vase-edge-gt3-017.txt.gz   the ground truth 3D scan points at feature edges.
     obtained by manually deleting homogeneous areas from the full scan.
     The file contains x y z coordinates for sample points, one point per line,
-    as an nx3 array. Loat into matlab with the load function (uncompress first)
+    as an nx3 array. Load directly into matlab/octave with the load function.
 
 
 pts-40.ply.gz   the original scan points to be opened in meshlab. Uncompress it
     first.
+
+pts-40.txt.gz   same as pts-40.ply but without the header, just `x y z` per
+    line, load it into matlab/octave directly without decompressing
 
 vase-edge-gt3-017.blend   open this in Blender to see how the image-registered 
     editing was done (explained below).
@@ -36,11 +39,21 @@ images/   a subset of the images for scene 40 from DTU robot feature dataset,
 cameras/  a subset of the cameras provided by the DTU robot feature dataset. These are 
     text files containing 3x4 matrix entries for each image in images/. The
     separate calibration K and R,T may be optained by decomposing the matrix.
+
+vase_test.m run this script to show how to project the 3D ground-truth into the
+    image using the provided cameras.
+
 ```
 ## Images
 The images are from the DTU Robot Feature Dataset, set 40, high res version
 http://roboimagedata.imm.dtu.dk/data/tar1200x1600/SET037_42.tar.gz
 They are in the folder SET040.
+
+You can also locate them here:
+http://roboimagedata.compute.dtu.dk/?page_id=24
+Download link: Scene 37-42
+http://roboimagedata2.compute.dtu.dk/data/tar1200x1600/SET037_42.tar.gz
+
 
 ## Generating your own registered images in Blender for image-aligned 3D editing
 
